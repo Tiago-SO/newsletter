@@ -18,5 +18,34 @@
   }
 
   body{
-      background-color: var(--body-bg-color);
+    background-color: var(--body-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .container{
+    position: relative;
+    max-width: 1440px;
+    max-height: 780px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/read_news.jpg);
+    background-size: 81.59%;
+    background-repeat: no-repeat;
+    background-position: left 26rem top 0px;
+  }
+
+  .bg-color{
+    position: absolute;
+    background-color: var(--body-bg-color);
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+  }
+
+  .newslatter{
+    position: absolute;
+    z-index: 2;
+  }
+
